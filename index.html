@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#10141c" />
+
+    <title>Reckless Driving</title>
+</head>
+
+<body>
+
+    <div id="app">
+
+        <!-- Game Header -->
+        <header class="top-bar">
+
+            <div class="brand">
+                <h1>RECKLESS <span>DRIVING</span></h1>
+                <p>ENDLESS HIGHWAY CHALLENGE</p>
+            </div>
+
+            
+            <div class="stats-panel">
+
+                <div class="stat-item">
+                    <span>SCORE</span>
+                    <h2 id="score">000000</h2>
+                </div>
+
+                <div class="stat-item">
+                    <span>DISTANCE</span>
+                    <h2 id="distance">0 m</h2>
+                </div>
+
+                <div class="stat-item level-stat">
+                  <span>LEVEL</span>
+                  <h2 id="level">1</h2>
+
+                  <div class="level-progress-track">
+                      <div id="levelProgress" class="level-progress-fill"></div>
+                  </div>
+
+                  <small id="levelRemaining">500 m to next level</small>
+                </div>
+
+                <div class="stat-item">
+                    <span>BEST</span>
+                    <h2 id="bestScore">000000</h2>
+                </div>
+
+            </div>
+
+        </header>
+
+        <!-- Game Canvas Container -->
+        <main id="game-container">
+            <div id="game-root"></div>
+        </main>
+
+        <!-- Game Controls -->
+        <footer class="bottom-bar">
+            <span>P / ESC — PAUSE GAME</span>
+        </footer>
+
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+
+</body>
+</html>
