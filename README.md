@@ -1,5 +1,5 @@
 
-# 🚗 Reckless Driving
+# 🚗 Reckless Driving Game
 
 A 2D endless highway driving game built with **Phaser 3, TypeScript, and Vite**. Dodge incoming traffic, avoid collisions, survive as long as possible, and beat your highest score!
 
